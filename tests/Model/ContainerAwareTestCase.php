@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace Oneup\FlysystemBundle\Tests\Model;
 
-use Symfony\Bundle\FrameworkBundle\KernelBrowser;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 class ContainerAwareTestCase extends WebTestCase
 {
-    protected KernelBrowser $client;
+    protected $client;
 
     protected function setUp(): void
     {

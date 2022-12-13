@@ -17,7 +17,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 class OneupFlysystemExtension extends Extension
 {
-    private ?array $adapterFactories = null;
+    private $adapterFactories = null;
 
     public function load(array $configs, ContainerBuilder $container): void
     {

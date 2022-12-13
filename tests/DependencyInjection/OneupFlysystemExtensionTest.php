@@ -211,7 +211,7 @@ class OneupFlysystemExtensionTest extends ContainerAwareTestCase
  */
 final class TestService
 {
-    public FilesystemOperator $filesystem;
+    public $filesystem;
 
     public function __construct(FilesystemOperator $myfilesystem)
     {
